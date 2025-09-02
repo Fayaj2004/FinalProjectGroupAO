@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E Shop</title>
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 30px 0;
+      font-weight: bold;
+    }
+
+    
+    .gallery-container {
+      column-count: 4;
+      column-gap: 15px;
+      padding: 20px;
+    }
+
+    @media (max-width: 992px) {
+      .gallery-container {
+        column-count: 3;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .gallery-container {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .gallery-container {
+        column-count: 1;
+      }
+    }
+
+    .gallery-container img {
+      width: 100%;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      display: block;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-container img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    
+    .gallery-container img:nth-child(3n+1) {
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .gallery-container img:nth-child(3n+2) {
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .gallery-container img:nth-child(3n) {
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .navbar-brand img {
+      border-radius: 50%;
+    }
+
+    footer {
+      background: linear-gradient(to right, #343a40, #212529);
+      padding: 15px 0;
+      color: #bbb;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="HomePage.html">
+        <img src="images/logo.jpg" alt="Logo" width="70" height="70" class="img-fluid"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" 
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="HomePage.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+</nav>
+
+<h2>Gallery</h2>
+
+  
+<div class="gallery-container">
+    <img src="images/mens3.jpg" alt="mens3" class="img-fluid"/>
+    <img src="images/dress4.jpg" alt="dress4" class="img-fluid"/>
+    <img src="images/shoes.jpg" alt="shoes" class="img-fluid"/>
+    <img src="images/kitchen.jpg" alt="kitchen" class="img-fluid"/>
+    <img src="images/dress.png" alt="dress" class="img-fluid"/>
+    <img src="images/heels1.jpg" alt="heels1" class="img-fluid"/>
+    <img src="images/skincare.jpg" alt="skincare" class="img-fluid"/>
+    <img src="images/dress1.jpg" alt="dress1" class="img-fluid"/>
+    <img src="images/mens2.jpg" alt="mens2" class="img-fluid"/>
+    <img src="images/dress2.jpg" alt="dress2" class="img-fluid"/>
+    <img src="images/travel2.jpg" alt="travel2" class="img-fluid"/>
+    <img src="images/sunglass.jpg" alt="sunglass" class="img-fluid"/>
+    <img src="images/office10.jpg" alt="office10" class="img-fluid"/>
+    <img src="images/earings.jpg" alt="earings" class="img-fluid"/>
+    <img src="images/kids2c.jpg" alt="kids2c" class="img-fluid"/>
+    <img src="images/perfume (1).jpg" alt="perfume" class="img-fluid"/>
+    <img src="images/fitness1.jpg" alt="fitness1" class="img-fluid"/>
+    <img src="images/coats1.jpg" alt="coats1" class="img-fluid"/>
+    <img src="images/hats.jpg" alt="hats" class="img-fluid"/>
+    <img src="images/skincare2.jpg" alt="skincare2" class="img-fluid"/>
+  </div>
+
+  
+ <div class="container-fluid text-white bg-dark p-4 mt-5">
+      <div class="row">
+        <div class="col-12 col-lg-7">
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Help Center</a></li>
+                <li><a href="#" class="text-white">Refund Policy</a></li>
+                <li><a href="#" class="text-white">Shipping Info</a></li>
+                <li><a href="#" class="text-white">Track Order</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">About Us</a></li>
+                <li><a href="#" class="text-white">Gallery</a></li>
+                <li><a href="#" class="text-white">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Contact Us</a></li>
+                <li><a href="#" class="text-white">Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 mt-4 mt-lg-0">
+          <address>
+            <strong>E Shop Pvt.Ltd.</strong><br>
+            No. 23, Mahenwatte,<br>
+            Pitipana, Homagama.<br>
+            Phone: +94-0112973456
+          </address>
+          <address>
+            <strong>Email</strong><br>
+            <a href="mailto:eshop@gmail.com" class="text-white">eshop@gmail.com</a>
+          </address>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center">
+      <div class="container">
+        <p>Copyright © eshop. All rights reserved.</p>
+      </div>
+    </footer>
+
+
+  
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

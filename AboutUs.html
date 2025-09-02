@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E Shop - About Us</title>
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: bold;
+      margin: 30px 0;
+    }
+
+    
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+    }
+
+    .hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(70%);
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+
+    
+    .about-section {
+      padding: 50px 20px;
+    }
+
+    .about-text {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #333;
+    }
+
+    .about-image img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    
+    .info-cards {
+      margin-top: 40px;
+    }
+
+    .info-card {
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .info-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .info-card h4 {
+      margin-bottom: 15px;
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    footer {
+      background: linear-gradient(to right, #343a40, #212529);
+      padding: 15px 0;
+      color: #bbb;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .navbar-brand img {
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="HomePage.html">
+        <img src="images/logo.jpg" alt="Logo" width="70" height="70" class="img-fluid"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" 
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="HomePage.html">Home</a></li>
+          <li class="nav-item active"><a class="nav-link" href="AboutUs.html">About Us <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div class="hero">
+    <img src="images/back1.jpg" alt="About Us Banner" class="img-fluid">
+    <div class="hero-text">Welcome!</div>
+  </div>
+
+  
+  <div class="container about-section">
+    <h2>About Us</h2>
+    <div class="row">
+      <div class="col-md-6 about-text">
+        <p>
+          At <strong>E Shop</strong>, we bring fashion, lifestyle, and daily essentials closer to you.
+          Since our inception, our goal has been to redefine online shopping by providing 
+          a seamless, reliable, and stylish experience to customers across the globe.
+        </p>
+        <p>
+          Our team is passionate about quality, affordability, and customer satisfaction. 
+          We carefully curate every product to ensure that you always find the perfect 
+          items that match your style and needs.
+        </p>
+        <p>
+          Whether it’s clothing, accessories, home essentials, or lifestyle products, 
+          E Shop stands as your one-stop destination for everything you love.
+        </p>
+      </div>
+      <div class="col-md-6 about-image">
+        <img src="images/about1.jpg" alt="About E Shop" class="img-fluid">
+      </div>
+    </div>
+
+    
+    <div class="row info-cards">
+      <div class="col-md-4">
+        <div class="info-card">
+          <h4>Our Mission</h4>
+          <p>
+            To provide our customers with a wide range of quality products at affordable prices, 
+            delivering convenience and style to every doorstep.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="info-card">
+          <h4>Our Vision</h4>
+          <p>
+            To be the most trusted and innovative online shopping platform, 
+            inspiring lifestyles around the world.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="info-card">
+          <h4>Our Values</h4>
+          <p>
+            Integrity, innovation, and customer-centricity form the core of everything we do at E Shop.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container-fluid text-white bg-dark p-4 mt-5">
+      <div class="row">
+        <div class="col-12 col-lg-7">
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Help Center</a></li>
+                <li><a href="#" class="text-white">Refund Policy</a></li>
+                <li><a href="#" class="text-white">Shipping Info</a></li>
+                <li><a href="#" class="text-white">Track Order</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">About Us</a></li>
+                <li><a href="#" class="text-white">Gallery</a></li>
+                <li><a href="#" class="text-white">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Contact Us</a></li>
+                <li><a href="#" class="text-white">Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 mt-4 mt-lg-0">
+          <address>
+            <strong>E Shop Pvt.Ltd.</strong><br>
+            No. 23, Mahenwatte,<br>
+            Pitipana, Homagama.<br>
+            Phone: +94-0112973456
+          </address>
+          <address>
+            <strong>Email</strong><br>
+            <a href="mailto:eshop@gmail.com" class="text-white">eshop@gmail.com</a>
+          </address>
+        </div>
+      </div>
+    </div>
+
+ 
+
+  <footer class="text-center">
+    <div class="container">
+      <p>Copyright © eshop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

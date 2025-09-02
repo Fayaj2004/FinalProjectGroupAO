@@ -1,0 +1,59 @@
+@charset "utf-8";
+.image {
+    width: 1200px;
+    height: 600px;
+}
+.rounded-circle {
+	width: 50px;
+	height: 50px;
+	
+}
+
+body {
+	    
+         
+  background-image: linear-gradient(to bottom, #ffffff, #474B52);  
+    
+}
+.card {
+
+}
+.sidebar{
+	
+	width: 250px;
+      background: #f9f9f9;
+      padding: 20px;
+      border-right: 1px solid #ccc;
+    }
+    .sidebar h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+    .sidebar ul li {
+      margin-bottom: 8px;
+    }
+    .sidebar ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+    .sidebar ul li a:hover {
+      color: #0073e6;
+    }
+.navbar{
+	background: rgba(34, 34, 34, 0.95);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    animation: navbarFadeIn 1s ease;
+    flex-wrap: wrap;
+
+}
+
